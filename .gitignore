@@ -1,0 +1,12 @@
+__pycache__/
+
+.env
+venv/
+
+.vscode/
+.idea/
+
+temp_audio/
+temp_images/
+
+.DS_Store
