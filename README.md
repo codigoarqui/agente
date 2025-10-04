@@ -107,6 +107,9 @@ GEMINI_API_KEY="tu-gemini-api-key"
 
 # URL para la herramienta de gestión de clientes
 URL_CLIENTS="https://url-de-tu-api-de-clientes"
+
+# URL de conexión directa a la base de datos de Supabase (Postgres)
+DATABASE_URL="postgres://postgres:[TU-CONTRASEÑA]@[ID-PROYECTO].supabase.co:5432/postgres"
 ```
 
 ### 4. Instalar Dependencias
@@ -128,6 +131,7 @@ venv\Scripts\activate
 ```bash
 # Instalar librerías
 pip install -r requirements.txt
+pip install psycopg2-binary
 ```
 
 ---
